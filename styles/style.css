@@ -387,12 +387,12 @@ body {
 .underline {
     text-decoration: underline;
     text-underline-offset: 3px;
+    font-style: normal;
 }
 
 .no-underline {
     text-decoration: none;
 }
-
 
 
 
