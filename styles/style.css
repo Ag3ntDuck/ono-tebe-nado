@@ -57,7 +57,7 @@ body {
 
 .tagline {
     display: grid;
-    background-image: url(/images/cover.jpg);
+    background-image: url(../images/cover.jpg);
     background-size: cover;
     width: 100%;
     margin-bottom: 149px;
@@ -211,15 +211,15 @@ body {
 
 
 .card-n1 {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
 }
 
 .card-n2 {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
 }
 
 .card-n3 {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
 }
 
 .lots-title {
