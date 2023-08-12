@@ -27,7 +27,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px; 
+    line-height: 24.3px;
     margin-right: 1px;
     margin-top: 6px;
 }
@@ -48,6 +48,7 @@ body {
     margin-right: 1px;
     margin-top: 5px;
     margin-bottom: 1px;
+    font-size: 18px
 }
 
 .overlay {
@@ -233,16 +234,15 @@ body {
     margin-bottom: 27px;
 }
 
-.p1, .p2, .p3 {
+.text-card {
     color: #FFF;
     font-family: Raleway;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%; 
+    line-height: 120%;
     text-decoration-line: underline;
     text-transform: uppercase;
-    text-align: center;
     margin-top: 50px;
     text-align: start;
     margin-right: 36px;
@@ -256,16 +256,16 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; 
+    line-height: 120%;
     margin-bottom: 50px;
 }
 
 .a1 {
     padding-left: 41px;
-    padding-right: 36px;    
+    padding-right: 36px;
 }
 
-.a2 {   
+.a2 {
     padding-left: 42px;
     padding-right: 39px;
 }
@@ -371,9 +371,6 @@ body {
     height: 48px;
 }
 
-.navigation {
-    font-size: 18px;
-}
 
 .footer-navigation {
     color: #000;
@@ -392,11 +389,18 @@ body {
     text-underline-offset: 3px;
 }
 
+.no-underline {
+    text-decoration: none;
+}
+
+
+
+
 .footer-contacts-values {
     color: #000;
     font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24.3px; 
+    line-height: 24.3px;
 }

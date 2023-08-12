@@ -13,26 +13,26 @@
   <body>
     <header class="header">
       <nav class="navigation">
-        <a class="main">главная</a>
-        <img class="marker" src="/images/list_marker.svg" />
-        <a class="see-a-lots underline">посмотреть лоты</a>
-        <img class="marker" src="/images/list_marker.svg" />
-        <a class="about underline">об аукционе</a>
+        <a href="#main" class="main no-underline">главная</a>
+        <img class="marker" alt="разделитель текста" src="/images/list_marker.svg" />
+        <a href="#lots" class="see-a-lots underline">посмотреть лоты</a>
+        <img class="marker" alt="разделитель текста" src="/images/list_marker.svg" />
+        <a href="#about" class="about underline">об аукционе</a>
       </nav>
       <div class="logo-block">
-        <img class="logo-black" src="/images/logo-black.svg" />
+        <img class="logo-black" alt="лого чёрное" src="/images/logo-black.svg" />
       </div>
       <div class="contacts">
         <div class="contacts-values">
-          <a class="number underline">+9 999 555 5555</a>
-          <div class="underline">info@sobaka.ge</div>
+          <a href="tel:+99995555555" class="number underline">+9 999 555 5555</a>
+          <div href="mailto:info@sobaka.ge" class="underline">info@sobaka.ge</div>
           <div>наб. Принсенграхт 263-265,</div>
           <div>Амстердам</div>
         </div>
       </div>
     </header>
 
-    <section class="tagline overlay">
+    <section class="tagline overlay" id="main">
       <div class="word1">он<span class="letter-1">о</span></div>
       <div class="word2">те<span class="letter-2">бе</span></div>
       <div class="word3"><span class="letter-3-1">н</span><span class="letter-3-2">ад</span>о</div>
@@ -42,18 +42,18 @@
       </div>
     </section>
 
-    <section class="lots">
+    <section class="lots" id="lots">
       <div class="lots-title">лоты</div>
       <div class="lots-block">
         <div class="card card-n1 overlay">
-          <div class="p1">Фильм режиссёра, который бросил киношколу</div>
+          <div class="text-card">Фильм режиссёра, который бросил киношколу</div>
           <div class="a a1">
             Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
             если бы вы не знали, что режиссёр — Пол Томас Андерсон?
           </div>
         </div>
         <div class="card card-n2 overlay">
-          <div class="p2">
+          <div class="text-card">
             Книга, где описан один скучный день из жизни рекламного агента
           </div>
           <div class="a a2">
@@ -65,7 +65,7 @@
           </div>
         </div>
         <div class="card card-n3 overlay">
-          <div class="p3">
+          <div class="text-card">
             Картина, которую повторит даже 5-летний сын маминой подруги
           </div>
           <div class="a a3">
@@ -79,7 +79,7 @@
       <div class="see-more underline">посмотреть больше</div>
     </section>
 
-    <section class="about-section">
+    <main class="about-section" id="about">
       <div class="logo-circle">
         <img class="logo-white" src="/images/logo-white.svg"/> 
       </div>
@@ -102,28 +102,28 @@
           продолжали верить их создатели. И сейчас эти лоты стали культовыми.
         </p>
       </div>
-    </section>
+    </main>
 
     <footer class="footer">
       <div class="footer-block">
         <div class="footer-contacts">
           <div class="footer-contacts-values">
-            <div class="footer-number underline">+9 999 555 5555</div>
-            <div class="footer-gmail underline">info@sobaka.ge</div>
+            <div href="tel:+99995555555" class="footer-number underline">+9 999 555 5555</div>
+            <div href="mailto:info@sobaka.ge" class="footer-gmail underline">info@sobaka.ge</div>
             <div>наб. Принсенграхт 263-265,</div>
             <div>Амстердам</div>
           </div>
         </div>
       </div>
       <div class="footer-navigation">
-        <p1 class="footer-p1">главная</p1>
-        <p2 class="footer-p2 underline">посмотреть лоты</p2>
-        <p3 class="footer-p3 underline">об аукционе</p3>
+        <a href="#main" class="footer-p1 no-underline">главная</a>
+        <a href="#lots" class="footer-p2 underline">посмотреть лоты</a>
+        <a href="#about" class="footer-p3 underline">об аукционе</a>
       </div>
       <div class="footer-sites">
-        <img src="/images/pinterest.svg">
-        <img src="/images/vk.svg">
-        <img src="/images/yt.svg">
+        <img alt="иконка сайта пинтерест" src="/images/pinterest.svg">
+        <img alt="иконка сайта вконтакте" src="/images/vk.svg">
+        <img alt="иконка сайта ютуб" src="/images/yt.svg">
       </div>
     </footer>
   </body>
