@@ -14,7 +14,7 @@
     <header class="header">
       <nav class="navigation">
         <ul class="navigation-menu">
-          <li><a href="#main" class="link link-page">главная</a></li>
+          <li class="no-marker"><a href="#main" class="link link-page">главная</a></li>
           <li><a href="#lots"  class="link">посмотреть лоты</a></li>
           <li><a href="#about"  class="link">об аукционе</a></li>
         </ul>
@@ -23,7 +23,7 @@
         <img class="logo-black" alt="лого чёрное" src="images/logo-black.svg" />
       </a>
 
-      <address class="address-header">
+      <address class="address">
         <a href="tel:+99995555555" class="link">+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge" class="link">info@sobaka.ge</a>
         <p class="">наб. Принсенграхт 263-265, Амстердам</p>
@@ -33,24 +33,24 @@
     <main>
       <section class="tagline" id="main">
         <div class="overlay"></div>
-        <h1 class="text-align-start"><span>о</span><span class="spacing-60">но</span></h1>
-        <h1 class="text-align-center"><span class="spacing-30">те</span><span class="spacing-60">бе</span></h1>
-        <h1 class="text-align-end">
-          <span class="spacing-55">н</span>
-          <span class="spacing-30">адо</span> <!--сделела все по фигма/комментам и нихуя не работает хихихих-->
+        <h1 class="heading-main">
+          <span class="text-align-start"><span class="letter-spacing-default">о</span><span class="letter-spacing-extended">но</span></span>
+          <span class="text-align-center"><span class="letter-spacing-default">те</span><span class="letter-spacing-extended">бе</span></span>
+          <span class="text-align-end"><span class="letter-spacing-extended">н</span><span class="letter-spacing-default">адо</span></span>
         </h1>
 
         <div class="things-text">
+          
+          <h2 class="things">Аукцион вещей, в которые никто не верил</h2>
           <button class="make-a-bet">Сделать ставку</button>
-          <h2 class="things">Аукцион    вещей,    в    которые    никто    не     верил</h2>
         </div>
       </section>
 
       <section class="lots" id="lots">
         <h2 class="lots-title">лоты</h2>
         <div class="lots-block">
-          <a href="#" class="card background-image-card1"> <!--href="#" не работает-->
-            <div class="overlay"></div>             <!--даже с <a>-->
+          <a href="#" class="card background-image-card1">
+            <div class="overlay"></div>            
             <h3 class="heading-text-card">
               Фильм режиссёра, который бросил киношколу
             </h3>
@@ -122,8 +122,8 @@
 
     <footer class="footer">
           <div class="footer-contacts-values">
-            <address class="address-footer">
-              <a href="tel:+99995555555" class="link">+9 999 555 5555</a>
+            <address class="address">
+              <a href="tel:+99995555555" class="link">+9 999 555 5555<br></a>
               <a href="mailto:info@sobaka.ge" class="link">info@sobaka.ge</a>
               <p>наб. Принсенграхт 263-265,<br> Амстердам</p>
            </address> 

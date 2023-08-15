@@ -67,22 +67,21 @@ body {
 }
 
 
-.spacing-55 {
+.heading-main {
     color: #FFF;
-    text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 100%; /* 100px */
-    letter-spacing: 55px;
+    line-height: 100%;
     text-transform: uppercase;
+    display: grid;
 }
 
-.spacing-30 {
+.letter-spacing-default {
     color: #FFF;
     text-align: center;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -91,9 +90,9 @@ body {
     text-transform: uppercase;
 }
 
-.spacing-60 {
+.letter-spacing-extended {
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -105,7 +104,7 @@ body {
 .text-align-start {
     text-align: start;
     color: #FFF;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
@@ -119,12 +118,14 @@ body {
 
 .text-align-center {
     text-align: center;
+    padding-top: 18px;
 }
 
 .text-align-end {
     text-align: right;
     padding-right: 20px;
     padding-bottom: 106px;
+    padding-top: 20px;
 }
 
 
@@ -137,8 +138,7 @@ body {
     line-height: 28px; /* 127.273% */
     text-transform: uppercase;
     padding-top: 22px;
-    white-space:pre;
-
+    word-spacing: 18px;
 }
 
 .make-a-bet {
@@ -163,7 +163,7 @@ body {
 
 .things-text {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: end;
     margin-bottom: 10px;
 }
 
@@ -249,24 +249,20 @@ body {
 }
 
 .navigation-menu > li {
-    display: inline-block;
-    margin-right: 28px;
+    margin-left: 33px;
 }
 
-.navigation-menu > li::before {
-    content: "";
-    width: 7px;
-    height: 7px;
-    display: block;
-    position: relative;
-    left: -19px;
-    top: 15px;
-    background-image: url('../images/list_marker.svg');
-    
+.navigation-menu > li:first-child {
+    margin-left: 0;
 }
 
-.navigation-menu > li:first-child:before {
-    display: none;
+.no-marker {
+    list-style-type: none;
+}
+
+.navigation-menu {
+    display: flex;
+    list-style: circle;
 }
 
 .see-more {
@@ -300,6 +296,7 @@ body {
     z-index: -2;
     margin-left: 82px;
     margin-right: 95px;
+    margin-top: 3px;
     grid-area: logo-circle;
 }
 
@@ -313,7 +310,7 @@ body {
      ". about-auction-block";
     margin-right: 50px;
     margin-left: 63px;
-    margin-bottom: 167px;
+    margin-bottom: 169px;
 }
 
 .about-auction {
@@ -330,7 +327,7 @@ body {
 
 .about-auction-text {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -338,7 +335,7 @@ body {
 }
 
 .about-auction-text:last-child {
-    padding-top: 25px;
+    padding-top: 28px;
 }
 
 .about-auction-block {
@@ -352,6 +349,7 @@ body {
     grid-template-rows: 1fr;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 90px;
 }
 
 .footer-sites {
@@ -360,7 +358,7 @@ body {
     gap: 48px;
 }
 
-.footer-sites > a {
+.footer-sites > a > img {
     width: 48px;
     height: 48px;
 }
@@ -403,24 +401,15 @@ body {
 
 address {
     color: #000;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24.3px; /* 135% */
+    
 }
 
-.address-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 207px;
-    margin-top: 3px;
-}
-
-.address-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 3px;
+.header > address {
+    padding-left: 207px;
+    padding-top: 6px;
 }
