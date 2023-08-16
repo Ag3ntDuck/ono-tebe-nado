@@ -13,11 +13,13 @@ body {
 }
 
 .address {
-    
-    max-width: 55%;
-    justify-self:right;
+    max-width: 240px;
+    align-self: center;
 }
 
+.address-header {
+    justify-self: end;
+}
 
 .logo-black {
     display: flex;
@@ -405,7 +407,7 @@ body {
 }
 
 
-address {
+.address {
     color: #000;
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -415,6 +417,3 @@ address {
     
 }
 
-.header > address {
-    
-}
