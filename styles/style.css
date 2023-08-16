@@ -12,6 +12,12 @@ body {
     margin-right: 49px;
 }
 
+.address {
+    
+    max-width: 55%;
+    justify-self:right;
+}
+
 
 .logo-black {
     display: flex;
@@ -358,7 +364,7 @@ body {
     gap: 48px;
 }
 
-.footer-sites > a > img {
+.ico {
     width: 48px;
     height: 48px;
 }
@@ -410,6 +416,5 @@ address {
 }
 
 .header > address {
-    padding-left: 207px;
-    padding-top: 6px;
+    
 }
